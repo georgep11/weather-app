@@ -1,0 +1,58 @@
+{
+  "name": "weather-app",
+  "proxy": "http://localhost:8080",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.1.1",
+    "bootstrap-css-only": "^4.4.1",
+    "gh-pages": "^3.2.3",
+    "mdb-react-ui-kit": "^1.4.0",
+    "mdbreact": "^5.1.0",
+    "moment-timezone": "^0.5.33",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-dom": "^17.0.2",
+    "react-google-places-autocomplete": "^3.3.2",
+    "react-live-clock": "^5.2.0",
+    "react-moment": "^1.1.1",
+    "react-scripts": "4.0.3",
+    "three": "^0.132.2",
+    "vanta": "^0.5.21",
+    "web-vitals": "^1.1.2"
+  },
+  "resolutions": {
+    "postcss-custom-properties": "^12.0.0"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
